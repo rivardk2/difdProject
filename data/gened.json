@@ -1,0 +1,79 @@
+{
+    "general": [
+        {
+            "name": "ACAD 101",
+            "description": "Principles of the Learning Academy",
+            "credits": "1"
+        },
+        {
+            "name": "WRIT 101",
+            "description": "Composition",
+            "credits": "3"
+        },
+        {
+            "name": "HMXP 102",
+            "description": " The Human Experience: Who Am I? Crit Reading",
+            "credits": "3"
+        },
+        {
+            "name": "CRTW 201",
+            "description": "Thinking, & Writing",
+            "credits": "3"
+        },
+        {
+            "name": "Oral Communication",
+            "description": "See approved list, p. 16",
+            "credits": "3"
+        },
+        {
+            "name": "Technology",
+            "description": "Met in major with CSCI 151",
+            "credits": "0"
+        },
+        {
+            "name": "Intensive Writing",
+            "description": "See approved list, p. 16; may be met by other req",
+            "credits": "0-3"
+        },
+        {
+            "name": "Constitution Requirement",
+            "description": "See approved list, p. 16; may be met by other req",
+            "credits": "0-3"
+        },
+        {
+            "name": "Physical Activity",
+            "description": "See approved list, p. 16",
+            "credits": "1"
+        },
+        {
+            "name": "Global Perspectives",
+            "description": "Senior Synthesis",
+            "credits": "3"
+        },
+        {
+            "name": "Historical Perspectives",
+            "description": "See approved list, p. 16",
+            "credits": "3"
+        },
+        {
+            "name": "Social Science",
+            "description": "See approved list, p. 16; must include 2 designators",
+            "credits": "6"
+        },
+        {
+            "name": "Humanities and Arts",
+            "description": "See approved list, p. 16; must include 2 designators",
+            "credits": "6"
+        },
+        {
+            "name": "Quantitative Skills",
+            "description": "MATH 151 or a MATH that includes Calculus or has Calculus as a pre-requisite; Additional Quantitative course",
+            "credits": "3-8"
+        },
+        {
+            "name": "Natural Science",
+            "description": "See approved list, p. 16 [Must include a lab science]",
+            "credits": "3-8"
+        }
+    ]
+}

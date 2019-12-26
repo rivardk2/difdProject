@@ -1,0 +1,328 @@
+@import "reset";
+@import "variables";
+
+body{
+    font-family: $main-font;
+    background-color: $color-main;
+}
+h1, h2, h3, h4{
+    font-family: $heading-font;
+    letter-spacing: 2px;
+}
+h2{
+    font-family: Rockwell, verdana, sans-serif;
+    font-style: italic;
+}
+p{
+    font-size:18px;
+}
+.navLinks{
+    font-family: $main-font;
+}
+@media (max-width: 1023px){
+   .rotate{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: $color-main;
+    }
+    .rotateContent{
+        left:20%;
+        right:20%;
+        top:30%;
+        position: fixed;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+    }
+    .rotate-text{
+        font-size: 30px;
+        text-align: center;
+    }
+    //Images
+    .rotateImg{
+        display: block;
+        margin: auto;
+        width: 40%;
+    }
+}
+@media (min-width: 1024px){
+    #grid{
+        display: grid;
+        grid-template-rows: auto, 1fr;
+    }
+    //navigation bar
+    .nav-bar{
+        z-index: 1;
+        width: 100%;
+        background: #FFFFFF;
+        position: fixed;
+        box-shadow: 0px 3px $color-secondary;
+    }
+    .navLinks{
+        padding-right: 10%;
+        margin-top: 25px;
+    }
+    .rightFloat{
+        float: right;
+    }
+    .leftFloat{
+        float: left;
+    }
+    .paddingRight{
+        padding-right: 40px;
+    }
+    .noStyle{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    a, a:visited{
+        color: #000000;
+    }
+    //Content
+    body{
+        margin: 0;
+    }
+    .whiteText{
+        color: #FFFFFF;
+    }
+    h1{
+        padding-left: 5%;
+        font-size: 35px;
+    }
+    .intro{
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .mainH2{
+        font-size: 60px;
+        text-align: center;
+    }
+    .rotate{
+        display: none;
+    }
+    .whiteBox{
+        background-color: #FFFFFF;
+        width: 100%;
+        padding-bottom: 3em;
+    }
+    .redBox{
+        padding-bottom: 3em;
+    }
+    div.info > p{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    h3{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 3em;
+    }
+    //button
+    .buttonClass {
+        margin-top:-2em;
+        margin-left: 45%;
+        text-align: center;
+        display: inline-block;
+        position: absolute;
+        vertical-align: middle;
+    }
+    .button {
+        display: inline-block;
+        border-radius: 50%;
+    }
+    .bottom {
+        display: inline-block;
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+        margin-left: 20px;
+        background-color: $color-secondary;
+    }
+    .bottom:after {
+        content: '';
+        display: inline-block;
+        margin-top: 0.6em;
+        width: 1.4em;
+        height: 1.4em;
+        border-top: 0.5em solid #000;
+        border-right: 0.5em solid #000;
+        -moz-transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+    //4 concentrations
+    .fourButtons{
+        text-align: center;
+    }
+    .round-button {
+        display: inline-block;
+        width:15%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .round-button-circle {
+        width: 100%;
+        height:0;
+        padding-bottom: 100%;
+        border-radius: 50%;
+        border:10px solid rgba(102, 0, 0, .7);
+        overflow:hidden;
+    }
+    .round-button a {
+        display:block;
+        width:100%;
+        padding-top:50%;
+        padding-bottom:50%;
+        line-height:1em;
+        horizontal-align: middle;
+        text-align:center;
+        color:#000000;
+        font-size:1.2em;
+        margin-top:-10%;
+        font-weight:bold;
+        text-decoration:none;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .dmmButtom{
+        background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),
+    url("../images/dmm.jpg");
+        background-size: 130%;
+    }
+    .digitalCommerceButtom{
+        background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),
+    url("../images/digitalCommerce.png");
+        background-size: 150%;
+    }
+    .wadButtom{
+        background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),
+    url("../images/web-application-development.jpg");
+        background-size: 100%;
+    }
+    .interactiveMediaButtom{
+        background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),
+    url("../images/interactiveMedia.png");
+        background-size: 100%;
+    }
+    //Testiomonials
+    .twoImg{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .img1{
+        width:40%;
+        height: 60%;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 50px 30%;
+    }
+    .laptopVector{
+        position: relative;
+        width: 50%;
+        height: 70%;
+        margin-top: -32.5%;
+        margin-bottom: 50px;
+    }
+    .tabletVector{
+        position: relative;
+        width: 30%;
+        height: 30%;
+        margin-top: -40%;
+        transform: rotate(90deg);
+    }
+    .img2{
+        width:35%;
+        height: 50%;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 50px 30%;
+    }
+    .desktopVector{
+        position: relative;
+        width: 45%;
+        margin-top:-28%;
+        margin-bottom: 50px;
+    }
+    .img3{
+        width:47%;
+        height: 60%;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 50px 30%;
+    }
+    .phoneVector{
+        position: relative;
+        width: 70%;
+        margin-top: -50.75%;
+        margin-bottom: -150px;
+        transform: rotate(90deg);
+    }
+    blockquote > p{
+        margin-top: 50px;
+        font-size: 25px;
+        font-family: $heading-font;
+        margin: auto 20%;
+        font-style: italic;
+    }
+    //Json
+    h4{
+        font-size:20px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .jsonInfo{
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: #FFFFFF;
+        margin-bottom:50px;
+    }
+    .jsonInfo ul{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        list-style-type: none;
+    }
+    .jsonInfo li{
+        font-family: $main-font;
+        color: #000000;
+    }
+    .jsonInfo button{
+        background: none;
+        border: none;
+        font-family: $heading-font;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .buttonPadding{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .lightestColor{
+        background-color: rgba(255, 165, 16, .25);
+    }
+    .lighterColor{
+        background-color: rgba(255, 165, 16, .5);
+    }
+    .darkerColor{
+        background-color: rgba(255, 165, 16, .75);
+    }
+    .darkColor{
+        background-color: rgb(255, 165, 16);
+    }
+    //images
+    .main-img{
+        width: 50%;
+    }
+    .centered{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

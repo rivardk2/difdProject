@@ -1,0 +1,391 @@
+/* line 1, F:/VCOM 362/rivard-kim-project-02/sass/_reset.scss */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 4, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+body {
+  font-family: "Gill Sans MT", verdana, sans-serif;
+  background-color: #660000;
+}
+
+/* line 8, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+h1, h2, h3, h4 {
+  font-family: "Oswald", verdana, sans-serif;
+  letter-spacing: 2px;
+}
+
+/* line 12, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+h2 {
+  font-family: Rockwell, verdana, sans-serif;
+  font-style: italic;
+}
+
+/* line 16, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+p {
+  font-size: 18px;
+}
+
+/* line 19, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+.navLinks {
+  font-family: "Gill Sans MT", verdana, sans-serif;
+}
+
+@media (max-width: 1023px) {
+  /* line 23, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .rotate {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #660000;
+  }
+  /* line 32, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .rotateContent {
+    left: 20%;
+    right: 20%;
+    top: 30%;
+    position: fixed;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+  }
+  /* line 40, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .rotate-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  /* line 45, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .rotateImg {
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 52, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  #grid {
+    display: grid;
+    grid-template-rows: auto, 1fr;
+  }
+  /* line 57, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .nav-bar {
+    z-index: 1;
+    width: 100%;
+    background: #FFFFFF;
+    position: fixed;
+    box-shadow: 0px 3px #F0B323;
+  }
+  /* line 64, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .navLinks {
+    padding-right: 10%;
+    margin-top: 25px;
+  }
+  /* line 68, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .rightFloat {
+    float: right;
+  }
+  /* line 71, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .leftFloat {
+    float: left;
+  }
+  /* line 74, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .paddingRight {
+    padding-right: 40px;
+  }
+  /* line 77, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .noStyle {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  /* line 81, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  a, a:visited {
+    color: #000000;
+  }
+  /* line 85, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  body {
+    margin: 0;
+  }
+  /* line 88, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .whiteText {
+    color: #FFFFFF;
+  }
+  /* line 91, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  h1 {
+    padding-left: 5%;
+    font-size: 35px;
+  }
+  /* line 95, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .intro {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  /* line 100, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .mainH2 {
+    font-size: 60px;
+    text-align: center;
+  }
+  /* line 104, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .rotate {
+    display: none;
+  }
+  /* line 107, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .whiteBox {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding-bottom: 3em;
+  }
+  /* line 112, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .redBox {
+    padding-bottom: 3em;
+  }
+  /* line 115, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  div.info > p {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  /* line 119, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 3em;
+  }
+  /* line 125, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .buttonClass {
+    margin-top: -2em;
+    margin-left: 45%;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    vertical-align: middle;
+  }
+  /* line 133, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .button {
+    display: inline-block;
+    border-radius: 50%;
+  }
+  /* line 137, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .bottom {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: #F0B323;
+  }
+  /* line 145, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .bottom:after {
+    content: '';
+    display: inline-block;
+    margin-top: 0.6em;
+    width: 1.4em;
+    height: 1.4em;
+    border-top: 0.5em solid #000;
+    border-right: 0.5em solid #000;
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  /* line 158, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .fourButtons {
+    text-align: center;
+  }
+  /* line 161, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .round-button {
+    display: inline-block;
+    width: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  /* line 167, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .round-button-circle {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    border: 10px solid rgba(102, 0, 0, 0.7);
+    overflow: hidden;
+  }
+  /* line 175, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .round-button a {
+    display: block;
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    line-height: 1em;
+    horizontal-align: middle;
+    text-align: center;
+    color: #000000;
+    font-size: 1.2em;
+    margin-top: -10%;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+  }
+  /* line 191, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .dmmButtom {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/dmm.jpg");
+    background-size: 130%;
+  }
+  /* line 196, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .digitalCommerceButtom {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/digitalCommerce.png");
+    background-size: 150%;
+  }
+  /* line 201, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .wadButtom {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/web-application-development.jpg");
+    background-size: 100%;
+  }
+  /* line 206, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .interactiveMediaButtom {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/interactiveMedia.png");
+    background-size: 100%;
+  }
+  /* line 212, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .twoImg {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  /* line 217, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .img1 {
+    width: 40%;
+    height: 60%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 50px 30%;
+  }
+  /* line 225, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .laptopVector {
+    position: relative;
+    width: 50%;
+    height: 70%;
+    margin-top: -32.5%;
+    margin-bottom: 50px;
+  }
+  /* line 232, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .tabletVector {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin-top: -40%;
+    transform: rotate(90deg);
+  }
+  /* line 239, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .img2 {
+    width: 35%;
+    height: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 50px 30%;
+  }
+  /* line 247, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .desktopVector {
+    position: relative;
+    width: 45%;
+    margin-top: -28%;
+    margin-bottom: 50px;
+  }
+  /* line 253, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .img3 {
+    width: 47%;
+    height: 60%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 50px 30%;
+  }
+  /* line 261, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .phoneVector {
+    position: relative;
+    width: 70%;
+    margin-top: -50.75%;
+    margin-bottom: -150px;
+    transform: rotate(90deg);
+  }
+  /* line 268, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  blockquote > p {
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: "Oswald", verdana, sans-serif;
+    margin: auto 20%;
+    font-style: italic;
+  }
+  /* line 276, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  h4 {
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  /* line 281, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .jsonInfo {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+  /* line 287, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .jsonInfo ul {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+  }
+  /* line 292, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .jsonInfo li {
+    font-family: "Gill Sans MT", verdana, sans-serif;
+    color: #000000;
+  }
+  /* line 296, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .jsonInfo button {
+    background: none;
+    border: none;
+    font-family: "Oswald", verdana, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  /* line 303, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .buttonPadding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  /* line 307, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .lightestColor {
+    background-color: rgba(255, 165, 16, 0.25);
+  }
+  /* line 310, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .lighterColor {
+    background-color: rgba(255, 165, 16, 0.5);
+  }
+  /* line 313, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .darkerColor {
+    background-color: rgba(255, 165, 16, 0.75);
+  }
+  /* line 316, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .darkColor {
+    background-color: #ffa510;
+  }
+  /* line 320, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .main-img {
+    width: 50%;
+  }
+  /* line 323, F:/VCOM 362/rivard-kim-project-02/sass/styles.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*# sourceMappingURL=../css/styles.map */

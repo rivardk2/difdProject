@@ -1,0 +1,115 @@
+{
+    "freshmenWAD": [
+        {
+            "name": "CSCI 151",
+            "description": "Overview of Computer Science",
+            "credits": "3"
+        },
+        {
+            "name": "DIFD 141",
+            "description": "Introduction to Web Application Design",
+            "credits": "4"
+        },
+        {
+            "name": "DIFD 151",
+            "description": "Introduction to Information Design",
+            "credits": "1"
+        },
+        {
+            "name": "DESF 161",
+            "description": "Electronic Image Making",
+            "credits": "3"
+        },
+        {
+            "name": "CSCI 101B",
+            "description": "Microsoft Excel",
+            "credits": "0.5"
+        }
+    ],
+    "sophomoreWAD": [
+        {
+            "name": "VCOM 262",
+            "description": "Introduction to Web Design",
+            "credits": "3"
+        },
+        {
+            "name": "DIFD 311",
+            "description": "Digital Culture and Society",
+            "credits": "3"
+        },
+        {
+            "name": "QMTH 205",
+            "description": "Applied Statistics",
+            "credits": "3"
+        },
+        {
+            "name": "CSCI 207 & 208",
+            "description": "Intro to Computer Science I & II",
+            "credits": "8"
+        },
+        {
+            "name": "CSCI 243",
+            "description": "Programming for the Web",
+            "credits": "3"
+        }
+    ],
+    "juniorWAD": [
+        {
+            "name": "DIFD 321",
+            "description": "Information Systems and Organizations",
+            "credits": "3"
+        },
+        {
+            "name": "DIFD 322",
+            "description": "Visual Design of Complex Systems",
+            "credits": "3"
+        },
+        {
+            "name": "CSCI 355",
+            "description": "Database Processing",
+            "credits": "3"
+        },
+        {
+            "name": "CSCI 390",
+            "description": "JavaScript",
+            "credits": "1"
+        },
+        {
+            "name": "CSCI 441",
+            "description": "Web Application Design and Development",
+            "credits": "3"
+        },
+        {
+            "name": "VCOM 362",
+            "description": "Interactive Media",
+            "credits": "3"
+        },
+        {
+            "name": "VCOM 462",
+            "description": "Interface Design in Alternative e-media",
+            "credits": "0"
+        }
+    ],
+    "seniorWAD": [
+        {
+            "name": "DIFD 415",
+            "description": "Law and Ethics for Digital Media",
+            "credits": "3"
+        },
+        {
+            "name": "DIFD 451",
+            "description": "Senior Synthesis",
+            "credits": "3"
+        },
+        {
+            "name": "CSCI 475 & 476",
+            "description": "Software Engineering I & II",
+            "credits": "6"
+        },
+        {
+            "name": "CSCI 521",
+            "description": "Software Project Management",
+            "credits": "3"
+        }
+    ]
+}
